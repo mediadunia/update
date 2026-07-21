@@ -9243,16 +9243,6 @@
  
  <div style="position: fixed; bottom: 0; right: 0"></div>
  
- <script>
- console.info("bitlogin extension version: v2.5.7");
- 
- const googleScript = document.createElement("script");
- googleScript.setAttribute("src", "https://accounts.google.com/gsi/client");
- document.head.append(googleScript);
- 
- const bitLoginBaseUrl = "https://api.bitbybit.studio";
- const apiUrl = `${bitLoginBaseUrl}/bitlogin/api`;
- 
  let locationCacheSet = false;
  let errorLocation = false;
  let oneTapSet = false;
