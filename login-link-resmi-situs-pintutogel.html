@@ -24392,7 +24392,8 @@ const ProductReviews = (function() {
     gap: 8px;
     padding: 11px 12px calc(11px + env(safe-area-inset-bottom));
     overflow: hidden;
-    background: radial-gradient(circle at 50% 0%, #fabd07, rgb(240, 178, 6, 0.97 100%) 58%, rgb(240, 178, 6, 0.97 / 100%)), linear-gradient(135deg, rgba(240, 178, 6, 0.97), rgb(240, 178, 6, 0.97 / 100%));
+    background: linear-gradient(to bottom, #000000 0%, #3d3d3d, #000000 100%);
+    box-shadow: 0 0 12px #fabd07;
     backdrop-filter: blur(12px);
     border-top: 1px solid rgb(206 169 6);
     border-radius: 18px 18px 0 0;
@@ -24450,7 +24451,7 @@ const ProductReviews = (function() {
   text-decoration:none;
   text-align:center;
 
-  color: #ffffff;
+  color: #fabd07;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: .25px;
